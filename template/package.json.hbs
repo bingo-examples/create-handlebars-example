@@ -1,0 +1,19 @@
+{
+	"name": "{{repository}}",
+	"version": "0.0.0",
+	"description": "{{description}}",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/{{owner}}/{{repository}}.git"
+	},
+	"type": "module",
+	"main": "lib/index.js",
+	"files": ["lib/", "package.json"],
+	"scripts": {
+		"tsc": "tsc"
+	},
+	"devDependencies": {
+		"@types/node": "22.13.9",
+		"typescript": "5.8.2"
+	}
+}

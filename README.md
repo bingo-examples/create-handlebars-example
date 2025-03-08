@@ -34,10 +34,10 @@ Its `src/template.ts` file describes a repository with four string options:
 
 Those options are used as values in the Handlebars templates located in `template/`.
 
-The following command was used to generate [bingo/created-example](https://github.com/created-example):
+The following command was used to generate [bingo/created-handlebars-example](https://github.com/created-handlebars-example):
 
 ```shell
-npx create-handlebars-example --owner bingo-examples --repository created-example
+npx create-handlebars-example --owner bingo-examples --repository created-handlebars-example
 ```
 
 ## Development
